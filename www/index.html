@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+        <link rel="stylesheet" href="css/index.css">
+        <script src="/js/jquery.min.js"></script>
+        <script src="/js/NoSleep.js"></script>
+        <script src="/js/cookie.min.js"></script>
+        <script src="cordova.js"></script>
+    <title>Breath Timer</title>
+
+</head>
+<body >
+
+<br>
+	<input type="text"  id="timerMax" value="10" size="2">
+	  <div id="out" class='PanelStep' ></div><br>
+	  <progress id="indikator" class='progress' value="1" max="10"></progress><br><br><br><br>
+      <div id="timer" class='PanelTimer'>10</div>
+<img src="/img/add-icon-png-2468.png" id="bottonPlus" onclick="Panel.clickPlus()" class='PanelPlus' >
+<img src="/img/minus-2-icon-14-256.png" id="bottonMinus" onclick="Panel.clickMinus()" class='PanelMinus' >
+
+
+<script src="/js/index.js"></script>
+</body>
+</html>

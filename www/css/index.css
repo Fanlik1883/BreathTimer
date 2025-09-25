@@ -1,0 +1,48 @@
+html,
+body {
+    background-color: green;
+    height: 100vh;
+}
+
+.progress {
+    top:50%;
+    width: 100%;
+    position: absolute;
+  
+    height: 40vh;
+
+ 
+
+}
+
+.PanelPlus{
+    position: absolute;
+    top:50%;
+    right: 10%; 
+    width: 10vw
+}
+
+.PanelMinus{
+    position: absolute;
+    top:50%;
+    left: 10%; 
+    width: 10vw;
+}
+
+.PanelStep{
+    font-size:10vw; 
+    width: 100%; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
+.PanelTimer{
+    font-size:10vw; 
+    left: 50%; 
+    top: 50%;
+    right: 50%; 
+    position: absolute;
+    justify-content: center; 
+
+    
+}
